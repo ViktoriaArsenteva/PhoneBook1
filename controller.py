@@ -27,7 +27,10 @@ def button_click():
         n = User_interface.number_empty()
         User_interface.find(n)
     elif number == 5:
-        User_interface.printtxt()
+        User_interface.output_selection()
+        n = User_interface.action_choice()
+        model.txtsort(n)
+
 
 
 
